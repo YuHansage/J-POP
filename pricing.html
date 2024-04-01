@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
+    <link href="pricing.css" rel="stylesheet">    
+    <title>pricing</title>
+    <style>
+        .container{
+            max-width: 960px;
+        }
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+        .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container py-3">
+        <header>
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <a href="index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" height="40" width="32" class="me-2" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg>
+              <span class="fs-4">J-POP</span>
+            </a>
+      
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="news.html">最新資訊</a>
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="program.html">藝人</a>
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="pricing.html">售票</a>
+              <a class="py-2 link-body-emphasis text-decoration-none" href="sign.html">登入</a>
+            </nav>
+          </div>
+      
+        </header>
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">註冊會員</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light"></small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>會員專屬優惠</li>
+                                <li>最新資訊提供</li>
+                                <li>電子郵件支援</li>
+                                <li>客服中心服務</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">免費註冊</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">專輯</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light"></small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>精美專輯</li>
+                                <li>專輯周邊</li>
+                                <li>門票優惠券</li>
+                                <li>售後服務</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">購買</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">專輯+門票</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light"></small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>入場周邊商品</li>
+                                <li>優先出貨</li>
+                                <li>專輯周邊</li>
+                                <li>售後服務</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">購買</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="display-6 text-center mb-4">場地資訊</h2>
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Legacy  <span class="text-body-secondary">Taipei</span></h2>
+                <p class="lead">Legacy Taipei位於『華山1914創意文化園區』的中五館，場館由歷史古蹟改建而成，自1914年起，即為台北市的重要地標，近年更以文化創意活動的發展，成為台北重要的藝文活動聚集地。 佔地225坪的寬闊空間，可靈活變化各種表演形式，場內沒有高柱造成視線死角，最適宜欣賞演出。 舞台11m x 6m，室內挑高8米，讓表演者能有盡情發揮的空間，又能保持與觀眾近距離接觸的互動能量。 Studio風格的場館設計，讓歷史建物保有質樸純粹的面貌，更讓唱歌與聽歌都能回到最原始直接的感動。</p>
+                <li>聯絡地址：台北市中正區八德路一段一號/華山1914創意文化園區/中5A館</li>
+                <li>聯絡方式：(02) 2395-6660</li>
+                <li>官網：http://www.legacy.com.tw/page/topic/taipei</li>
+            </div>
+              <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/場地資訊/taipeishow.png" alt="">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Legacy<span class="text-body-secondary">Taichung</span></h2>
+                <p class="lead">台中，得天獨厚的樞紐位置，擁有豐厚的自然、人文資產，串聯著南來北往的交通，融合出屬於中部特有既包容又富創意的文化風格。Legacy傳，華人現場音樂的領導品牌，善於發掘創意因子的品牌性格，始終被台中深深吸引，經過三年多的縝密規劃，一座為Live Music量身打造的全新音樂展演空間 – Legacy Taichung，在2014年夏天，帶著眾人的祝福與期待開幕了。Legacy Taichung，坐落在中港交流道旁，緊鄰台中新市政生活圈的便利交通，擁有專業設備的展演空間，結合多元專業的堅強團隊，創造優質豐富的精彩節目， 希望成為最在地、最精彩的音樂生活地標，並為台灣音樂能量的點燃新亮點。以創作為主軸，搖滾為精神，打造一場場令人驚豔的現場演出；震撼的聲光效果，獨一無二的舞台魅力，讓理念被傳達、熱情被感染，直接體會音樂的本質，不只是LIVE也是LIFE。</p>
+                <li>聯絡地址：台中市西屯區安和路117號</li>
+                <li>聯絡方式：(04) 2359-8780</li>
+                <li>官網：http://www.legacy.com.tw/page/topic/taichung</li>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/場地資訊/taichungshow.png" alt="">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">信義劇場<span class="text-body-secondary">Legacy MAX</span></h2>
+                <p class="lead">信義劇場 Legacy MAX位於新光三越台北信義新天地A11的6樓，身處全球百貨密度最高的信義區。自2017年９月，新光三越開始與台灣音樂展演場地經營巨頭Legacy傳 音樂展演空間合作場地經營計劃，攜手打造獨一無二展演空間信義劇場 Legacy MAX。400坪的開闊空間，室內全場挑高最高9米，場地無任何柱面，展場寬闊完整，是信義區百貨最大最完整的展演空間。MAX字意，是期許透過這個合作，持續將藝術及音樂帶入生活，感受全新生活魅力極大值。</p>
+                <li>場館地址：110台北市信義區松壽路11號6樓</li>
+                <li>聯絡方式：(02) 2395-6660</li>
+                <li>官網：http://www.legacy.com.tw/page/topic/MAX</li>
+              </div>
+              <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/場地資訊/taichungmax.png" alt="">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+
+        </main>
+    </div>
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2023–2024 Company, Inc. &middot; <a href="#">關於</a> &middot; <a href="#">條款</a></p>
+      </footer>
+        
+        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>

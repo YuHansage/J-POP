@@ -1,0 +1,14 @@
+.titleimg{
+    height: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+  .slide__item {
+    display: block;
+  }
+  .h2{
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+  }

@@ -1,0 +1,9 @@
+.card mb-3{
+    border: solid black 1px;
+    background-color: black; 
+    width: 600px;
+    height: 400px;
+}
+.card-img-topg{
+    margin-top: 100px;
+}

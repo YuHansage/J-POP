@@ -1,0 +1,16 @@
+.artcard{
+    border: solid gray 2px;
+    width: 18rem;
+    margin-top: 100px;
+    left: 0;
+    display:inline-table;
+    margin-left: 30px;
+}
+.artcard-img{
+    border: solid gold 1px;
+    border-radius: 50%;
+    width: 100px;
+}
+.artcard-info{
+    border:  solid black 3px;
+}
